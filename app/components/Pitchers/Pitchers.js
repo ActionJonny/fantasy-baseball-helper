@@ -6,7 +6,7 @@ class Pitchers extends Component {
   render() {
     return (
     <div>
-      Pitchers
+      Small change to see if I am getting warning about file size from github
     </div>
     )
   }

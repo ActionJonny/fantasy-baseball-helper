@@ -19,13 +19,13 @@ describe('actions', () => {
   expect(createdAction[0]).toEqual(expectedAction)
   })
 
-  it.skip('getBatters', () => {
+  it('getBatters', () => {
   let expectedAction = {type: 'GET_BATTERS', batters: batterData}
 
   store.dispatch(actions.getBatters(batterData))
   let createdAction = store.getActions()
 
-  expect(createdAction.length).toEqual(1)
+  expect(createdAction.length).toEqual(2)
   expect(createdAction[1]).toEqual(expectedAction)
   })
 

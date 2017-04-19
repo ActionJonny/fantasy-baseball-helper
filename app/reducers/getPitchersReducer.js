@@ -1,8 +1,8 @@
 export const pitchers = (state=[], action) => {
   switch(action.type) {
     case 'GET_PITCHERS':
-    return [...state, ...action.pitchers]
+      return [...action.pitchers]
     default:
-    return state
+      return state
   }
 }

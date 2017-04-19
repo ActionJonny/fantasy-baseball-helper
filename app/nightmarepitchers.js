@@ -1,6 +1,6 @@
 const Nightmare = require('nightmare');
 
-const nightmare = Nightmare();
+const nightmare = Nightmare({ show: true });
 
 nightmare
   .viewport(1500, 1500)

@@ -1,0 +1,47 @@
+html {
+  width: 100%;
+  text-align: center;
+  background-color: #292929;
+  color: white;
+}
+
+h1 {
+  margin-top: auto;
+  padding: 20px;
+  background-color: #101010;
+  border-radius: 10px;
+}
+
+h3 {
+  padding: 20px;
+  background-color: #101010;
+  border-radius: 10px;
+}
+
+table {
+  table-layout: auto;
+  margin-top: 20px;
+  width: 100%;
+  border: 2px solid #101010;
+  border-radius: 5px;
+}
+
+.watch-home {
+  display: inline-block;
+  padding: 20px;
+}
+
+.home-link, .home {
+  padding: 20px;
+  color: white;
+}
+
+.home-batters, .home-pitchers {
+  padding-left: 5%;
+  position: absolute;
+  width: 40%;
+}
+
+.home-pitchers {
+  margin-left: 50%;
+}

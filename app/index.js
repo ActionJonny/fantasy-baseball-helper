@@ -7,9 +7,9 @@ import { ConnectedRouter, routerReducer, routerMiddleware } from 'react-router-r
 import thunk from 'redux-thunk'
 import logger from 'redux-logger'
 
-// import css
+import './index.css'
 
-import App from './components/App/App';
+import AppContainer from './components/App/AppContainer';
 import createHistory from 'history/createBrowserHistory';
 import rootReducer from './reducers/index'
 
@@ -24,7 +24,7 @@ const store = createStore(rootReducer, devTools, applyMiddleware(...middleware))
 const router = (
   <Provider store={store}>
     <ConnectedRouter history={history}>
-      <Route to="/" component={App}/>
+      <Route to="/" component={AppContainer}/>
     </ConnectedRouter>
   </Provider>
 )

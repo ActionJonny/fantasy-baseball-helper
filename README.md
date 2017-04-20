@@ -3,7 +3,7 @@
 ## Project Status
   This is definitely a passion project for me. For someone that is in four fantasy baseball leagues, I have needed something to help me stay organized and help me draft based on what categories each of my leagues has. Fantasy baseball helper is that application
 ## Project Screen Shot(s)   
-![Pitchers Screen] (/app/images/screen-shot.png)
+![Pitchers Screen](/app/images/screen-shot.png?raw=true "Pitchers Table")
 ## Installation and Setup Instructions
 npm start  
 ## Reflection
@@ -19,4 +19,5 @@ I ran into an issue using nightmare - no pun intended - and baseball-reference. 
 
 ## Resources
 https://github.com/segmentio/nightmare
+
 http://www.baseball-reference.com/
